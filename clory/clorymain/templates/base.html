@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{% load static %}
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -18,14 +18,9 @@
     <![endif]-->
   </head>
   <body>
-    <p>Hello</p>
-    <button type="button" class="btn btn-warning" name="button">
-    <a href="signup/"> Sign up </a>
-    </button>
-    <button type="button" class="btn btn-default" name="button">
-      <a href="signIn/"> SignIn </a>
-    </button>
-
+    Home base
+    {% block content %}
+    {% endblock %}
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

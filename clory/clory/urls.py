@@ -19,5 +19,6 @@ from django.urls import path, include
 urlpatterns = [
     path('', include('log.urls')),
     path('', include('clorysystem.urls')),
+    path('home/', include('clorymain.urls')),
     path('admin/', admin.site.urls),
 ]
