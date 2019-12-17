@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
 
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,13 +22,150 @@
     <![endif]-->
   </head>
   <body>
-    <p>Hello</p>
-    <button type="button" class="btn btn-warning" name="button">
+    <section id="start">
+      <div class="container-fluid start">
+        <div class="row">
+          <div class="col-md-6 text-left">
+            <div class="left-section">
+              <p class="start-text">I’m </p>
+              <p class="start-text-sub">customer</p>
+              <div class="row">
+                <div class="col-md-4 col-md-offset-7">
+                  <button type="button" name="button" class="btn1 btn-info">Join us</button>
+                </div>
+                <div class="col-md-6 customer">
+                  <img src="{% static 'img/customer.png' %}?version=1" alt="" class="img-responsive main-image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 text-right">
+            <div class="right-section">
+              <p class="start-text">I’m </p>
+              <p class="start-text-sub">store</p>
+              <div class="row ">
+                <div class="col-md-4 col-md-offset-1">
+                  <button type="button" name="button" class="btn2 btn-info">Join us</button>
+                </div>
+                <div class="col-md-7 shop col-md-offset-5">
+                  <img src="{% static 'img/shop.png' %}?version=1" alt="" class="img-responsive main-image1">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <p class="main-service-text">About service</p>
+                <p> <img src="{% static 'img/Line.png' %}?version=1" alt="" class="img-responsive main-image0"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container-fluid about">
+        <div class="row ab">
+          <div class="col-md-2">
+              <img src="{% static 'img/Logo.png' %}?version=1" alt="" class="img-responsive">
+          </div>
+          <div class="col-md-4 col-md-offset-2 text-center">
+          <p class="about-text">About service</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="about-sub-text">Our service helps improve the relationship between clothing stores and their customers. Simplifies and accelerates the choice of clothing for the client, allows you to make high-quality shopping with minimal time costs. Allows the store to easier control of sales </p>
+          </div>
+          <div class="col-md-4 book col-md-offset-1">
+            <img src="{% static 'img/book.png' %}?version=1" alt="" class="img-responsive main-image2">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-5 text-center">
+              <p class="about-do-text">What can a user do?</p>
+              <p> <img src="{% static 'img/Line.png' %}?version=1" alt="" class="img-responsive main-image3"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="what">
+      <div class="container-fluid about">
+        <div class="row ab">
+          <div class="col-md-2">
+              <img src="{% static 'img/Logo.png' %}?version=1" alt="" class="img-responsive">
+          </div>
+          <div class="col-md-4 col-md-offset-2 text-center">
+          <p class="about-text">What can do...</p>
+          </div>
+        </div>
+        <div class="row what-up">
+          <div class="col-md-4">
+          <div class="what-sub-text">
+            <p class="what-text1">Customer</p>
+            <p>1. Choose stores <br>
+2. View products (their description, sizes, availability) <br>
+3. Add products to favorites <br>
+4. Quickly receive goods at points in the store <br>
+5. Be a satisfied user</p>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <img src="{% static 'img/comp.png' %}?version=1" alt="" class="img-responsive main-image4">
+          </div>
+          <div class="col-md-4">
+          <div class="what-sub-text">
+            <p class="what-text1">Store</p>
+            <p>1. View the addresses
+of your outlets <br>
+2. Better to interact with the client <br>
+3. Carry out a smart inventory <br>
+4. To establish the speed of sales
+</p>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12  text-center">
+                <p class="contacts-text">Contacts</p>
+                <p> <img src="{% static 'img/Line.png' %}?version=1" alt="" class="img-responsive main-image5"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="conacts">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <p class="contacts-main-text about-text"> Contacts </p>
+              <p class="con">
+                <i class="fa fa-envelope"></i>&nbsp; el.isaeva@gmail.com </p>
+              <p class="con">
+                  <i class="fa fa-phone"></i>&nbsp; +380505559615 </p>
+              <p class="n"> Clory © 2019. All rigths reserved.</p>
+          </div>
+            <div class="col-md-4">
+              <img src="{% static 'img/girl.png' %}?version=1" alt="" class="img-responsive main-image6">
+            </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- <button type="button" class="btn btn-warning" name="button">
     <a href="signup/"> Sign up </a>
     </button>
     <button type="button" class="btn btn-default" name="button">
       <a href="signIn/"> SignIn </a>
-    </button>
+    </button> -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
