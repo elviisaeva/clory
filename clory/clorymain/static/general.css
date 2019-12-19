@@ -1,0 +1,181 @@
+body{
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  overflow-x: hidden;
+
+}
+.navbar{
+  background-color:rgba(170, 208, 217, 0.65);
+}
+
+#menu{
+  color: #0090B2;
+  height: 8.5 vh;
+  margin-bottom: 0;
+  font-size: 25px;
+  line-height: 52px;
+  display: flex;
+  font-weight: normal;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: rgba(170, 208, 217, 0.65);
+}
+
+.all{
+  margin-right: 7vw;
+}
+
+.cho{
+  margin-right: 7vw;
+}
+
+.hi{
+  color: #A85252;
+  margin-right: 7vw;
+}
+
+.log{
+  margin-right: 7vw;
+}
+
+a{
+  color: #0090B2;
+  margin-top: 1.4vh;
+}
+a:hover{
+  color: #E5B9B6;
+  border: 2px;
+  border-radius: 6px;
+  background-color: #F7F7F7;
+}
+
+.nav-button{
+  margin-top: 1.4vh;
+}
+.btn:hover{
+  color: #E5B9B6;
+  border: 2px;
+  border-radius: 6px;
+  background-color: #F7F7F7;
+}
+.btn-store:hover{
+  color: #E5B9B6;
+  border:2px;
+  border-color: #E5B9B6;
+  border-radius: 60px;
+  background-color: #F7F7F7;
+}
+.nav-button-lan{
+  margin-top: 1.4vh;
+  border-color: #E5B9B6;
+}
+
+.btn-default-border{
+  border-color: #E5B9B6;
+  background-color: #E5B9B6;
+  color: #DD756E;
+  font-size: 25px;
+  margin-right: 2vw;
+}
+
+.dropdown-toggle{
+  width: 40px;
+  height: 40px;
+}
+.main-image{
+  width: 140px;
+  height: 60px;
+  left: 27px;
+  top: 25px;
+}
+
+ /* ----All Stores---- */
+#all-stores{
+  background-color: #F7F7F7;
+  height: 100vh;
+  padding-top: 15vh;
+}
+
+.store{
+  color: #A85252;
+  font-size: 55px;
+  letter-spacing: 0.06em;
+}
+
+.has-search .form-control-feedback {
+    right: initial;
+    left: 0;
+    color: rgba(0, 144, 178, 0.37);
+}
+
+.has-search .form-control {
+    padding-right: 12px;
+    padding-left: 34px;
+}
+.form-control{
+  border-radius: 60px;
+  border: 2px solid #AAD0D9
+  padding-left: 4vw;
+  background-color: #F7F7F7;
+  color: rgba(0, 144, 178, 0.37);
+}
+
+.search{
+    width: 45%;
+    margin: 35px auto;
+}
+
+.pull-bear{
+  width: 100%;
+  height: 25%;
+
+}
+.zara{
+  width: 100%;
+  height: 25%;
+}
+
+.stra{
+  width: 100%;
+  height: 25%;
+}
+
+.card-deck{
+  margin-left: 6vw;
+}
+.card{
+  width: 270px;
+  height: 250px;
+  position: absolute;
+  float: left;
+  margin-top: 15vh;
+}
+
+#card-1{
+  margin-left: 60px;
+
+}
+
+#card-2{
+  margin-left: 541px;
+
+}
+
+#card-3{
+  margin-left: 1022px;
+}
+
+
+ .btn-store{
+  color: #E5B9B6;
+  letter-spacing: 0.06em;
+  background: rgba(168, 82, 82, 0.8);
+  border: 3px solid #A85252;
+  border-radius: 60px;
+  width: 100%;
+  padding-bottom: 2px;
+  margin-top: 5vh;
+  font-size: 2em;
+}
