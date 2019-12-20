@@ -11,7 +11,7 @@ body{
 
 #menu{
   color: #0090B2;
-  height: 8.5 vh;
+  height: 8.5vh;
   margin-bottom: 0;
   font-size: 25px;
   line-height: 52px;
@@ -20,7 +20,7 @@ body{
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: rgba(170, 208, 217, 0.65);
+  background-color: #F7F7F7;
 }
 
 .all{
@@ -49,6 +49,10 @@ a:hover{
   border: 2px;
   border-radius: 6px;
   background-color: #F7F7F7;
+}
+
+a:active{
+  color: #A85252;
 }
 
 .nav-button{
@@ -95,7 +99,10 @@ a:hover{
 #all-stores{
   background-color: #F7F7F7;
   height: 100vh;
-  padding-top: 15vh;
+}
+
+.row1{
+  margin-top: 5vh;
 }
 
 .store{
@@ -156,6 +163,7 @@ a:hover{
 #card-1{
   margin-left: 60px;
 
+
 }
 
 #card-2{
@@ -178,4 +186,294 @@ a:hover{
   padding-bottom: 2px;
   margin-top: 5vh;
   font-size: 2em;
+}
+
+
+/* ---------Zara-gender----- */
+.women{
+  margin-top: -3px;
+  padding: 0;
+}
+#blck1{
+  margin:0px;
+  padding:0;
+}
+#blck2{
+  margin:0px;
+  padding:0;
+}
+#blck3{
+  margin:0px;
+  padding:0;
+}
+
+.wtext{
+  position: absolute;
+  width: 529px;
+  height: 180px;
+  left: 55px;
+  top: 291px;
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 110px;
+  line-height: 155px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #A85252;
+  text-shadow: 4px 4px 4px #F7F7F7;
+}
+
+.ctext{
+  position: absolute;
+  width: 529px;
+  height: 180px;
+  left: 35px;
+  top: 291px;
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 110px;
+  line-height: 155px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #F7F7F7;
+  text-shadow: 4px 4px 4px #000000;
+}
+
+.mtext{
+  position: absolute;
+  width: 529px;
+  height: 180px;
+  left: 155px;
+  top: 291px;
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 110px;
+  line-height: 155px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #000000;
+  text-shadow: 4px 4px 4px #A85252;
+}
+
+
+.zara2{
+  position: absolute;
+  width: 119px;
+  height: 50px;
+  right: 55px;
+  top: 37px;
+  background: url(zara2.png);
+}
+
+/* --------Zara-women_------ */
+.zara-women{
+position: absolute;
+left: 37px;
+width: 200px;
+height: 74px;
+top: 51px;
+}
+
+.line{
+position: absolute;
+width: 110px;
+height: 0px;
+left: 29px;
+top: 264px;
+border: 2px solid #DD756E;
+}
+
+#all{
+position: absolute;
+width: 202px;
+height: 47px;
+left: 37px;
+top: 217px;
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 45px;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #0090B2;
+}
+
+#dresses{
+  position: absolute;
+  width: 316px;
+  height: 52px;
+  left: 29px;
+  top: 266px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #0090B2;
+}
+
+#t-shirts{
+  position: absolute;
+  width: 316px;
+  height: 53px;
+  left: 29px;
+  top: 306px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #0090B2;
+}
+
+#trousers{
+  position: absolute;
+  width: 316px;
+  height: 52px;
+  left: 29px;
+  top: 347px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #0090B2;
+}
+
+.dress{
+  margin-top: 51px;
+}
+
+.t-shirt{
+  margin-top: 151px;
+}
+
+.trousers{
+  margin-top: 251px;
+}
+
+#dress{
+  margin: 0px;
+}
+
+#t-shirt{
+  margin: 0px;
+  left: 50px;
+}
+
+#trouser{
+  margin: 0px;
+  left: 100px;
+}
+
+#all1{
+position: absolute;
+width: 202px;
+height: 47px;
+left: 37px;
+top: 217px;
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 45px;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #A85252;
+}
+
+#dresses1{
+  position: absolute;
+  width: 316px;
+  height: 52px;
+  left: 29px;
+  top: 266px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #A85252;
+}
+
+#t-shirts1{
+  position: absolute;
+  width: 316px;
+  height: 53px;
+  left: 29px;
+  top: 306px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #A85252;
+}
+
+#trousers1{
+  position: absolute;
+  width: 316px;
+  height: 52px;
+  left: 29px;
+  top: 347px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #A85252;
+}
+
+h5{
+  font-weight: bold;
+}
+.dress1{
+width: 100%;
+}
+
+#card1{
+  margin: 0px;
+  width: 26%;
+}
+
+#card2{
+  margin: 0px;
+  left: 1px;
+  width: 26%;
+}
+
+#card3{
+  margin: 0px;
+  left: 2px;
+  width: 26%;
 }

@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
+</head>
+
+<section id="zara_dress">
+  <div class="conteiner-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="{% static 'img/zara-women.png' %}?version=1" alt="" class="img-responsive zara-women">
+      </div>
+      <div>
+        <a href="#"><p id="all">All</p></a>
+        <img src="{% static 'img/Line.png' %}?version=1" alt="" class="img-responsive line">
+        <a href="#" ><p id="dresses1">dresses | overalls</p></a>
+        <a href="#"><p id="t-shirts">T-shirts</p></a>
+        <a href="#"><p id="trousers">trousers</p></a>
+      </div>
+      <div class="col-md-5 col-md-offset-4">
+          <div class="search">
+            <div class="form-group has-feedback has-search">
+              <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                <input type="text"  class="form-control" placeholder="Search">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-md-offset-2">
+        <div class="card-deck">
+          <div id="card1" class="col-md-4">
+            <div class="card1">
+              <a href="#"><img src="{% static 'img/dress1.png' %}?version=1" alt="" class="img-responsive dress1"></a>
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">ASSEMBLY DRESS</h5></a>
+                <p class="card-text">3,599.00 UAH</p>
+              </div>
+            </div>
+          </div>
+          <div id="card2" class="col-md-4">
+            <div class="card2">
+              <a href="#"><img src="{% static 'img/dress2.png' %}?version=1" alt="" class="img-responsive dress1"></a>
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">EMBROIDERY DRESS</h5></a>
+                <p class="card-text">2 799,00 UAH</p>
+              </div>
+            </div>
+          </div>
+          <div id="card3" class="col-md-4">
+            <div class="card3">
+              <a href="#"><img src="{% static 'img/dress3.png' %}?version=1" alt="" class="img-responsive dress1"></a>
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">VOLUME SLEEVE DRESS</h5></a>
+                <p class="card-text">1 179,00 UAH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

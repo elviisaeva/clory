@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
+</head>
+
+<section id="zara-women">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="{% static 'img/zara-women.png' %}?version=1" alt="" class="img-responsive zara-women">
+      </div>
+      <div>
+        <a href="zara_all"><p id="all">All</p></a>
+        <img src="{% static 'img/Line.png' %}?version=1" alt="" class="img-responsive line">
+        <a href="zara_dress"><p id="dresses">dresses | overalls</p></a>
+        <a href="zara_tshirt"><p id="t-shirts">T-shirts</p></a>
+        <a href="zara_trouser"><p id="trousers">trousers</p></a>
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-3">
+            <div id="dress" class="dress">
+              <a href="zara_dress"><img src="{% static 'img/dress.png' %}?version=1" alt="" class="img-responsive dress"></a>
+            </div>
+          </div>
+          <div id="t-shirt" class="col-md-3">
+            <div class="t-shirt">
+              <a href="zara_tshirt"><img src="{% static 'img/t-shirt.png' %}?version=1" alt="" class="img-responsive t-shirt"></a>
+            </div>
+          </div>
+          <div id="trouser" class="col-md-3">
+            <div class="trousers">
+              <a href="zara_trouser"><img src="{% static 'img/trousers.png' %}?version=1" alt="" class="img-responsive trousers"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

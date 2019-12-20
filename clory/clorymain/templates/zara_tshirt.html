@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
+</head>
+
+<section id="zara_dress">
+  <div class="conteiner-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="{% static 'img/zara-women.png' %}?version=1" alt="" class="img-responsive zara-women">
+      </div>
+      <div>
+        <a href="#"><p id="all">All</p></a>
+        <img src="{% static 'img/Line.png' %}?version=1" alt="" class="img-responsive line">
+        <a href="#" ><p id="dresses">dresses | overalls</p></a>
+        <a href="#"><p id="t-shirts1" ">T-shirts</p></a>
+        <a href="#"><p id="trousers">trousers</p></a>
+      </div>
+      <div class="col-md-5 col-md-offset-4">
+          <div class="search">
+            <div class="form-group has-feedback has-search">
+              <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                <input type="text"  class="form-control" placeholder="Search">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-md-offset-2">
+        <div class="card-deck">
+          <div id="card1" class="col-md-4">
+            <div class="card1">
+              <a href="#"><img src="{% static 'img/t-shirt1.png' %}?version=1" alt="" class="img-responsive dress1"></a>
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">KING LION PRINT T-SHIRT © DISNEY</h5></a>
+                <p class="card-text">699.00 UAH</p>
+              </div>
+            </div>
+          </div>
+          <div id="card2" class="col-md-4">
+            <div class="card2">
+              <a href="#"><img src="{% static 'img/t-shirt2.png' %}?version=1" alt="" class="img-responsive dress1"></a>
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">PRINT T-SHIRT</h5></a>
+                <p class="card-text">599,00 UAH</p>
+              </div>
+            </div>
+          </div>
+          <div id="card3" class="col-md-4">
+            <div class="card3">
+              <a href="#"><img src="{% static 'img/t-shirt3.png' %}?version=1" alt="" class="img-responsive dress1"></a>
+              <div class="card-body">
+                <a href="#"><h5 class="card-title">LIOCELLE BASIC T-SHIRT</h5></a>
+                <p class="card-text">599,00 UAH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
