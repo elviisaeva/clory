@@ -12,10 +12,13 @@ def zara_women(request):
     return render(request, 'zara_women.html')
 
 def zara_all(request):
-    return render(request, 'zara_all.html') 
+    return render(request, 'zara_all.html')
 
 def zara_dress(request):
     return render(request, 'zara_dress.html')
+
+def assembly_dress(request):
+        return render(request, 'assembly_dress.html')
 
 def zara_tshirt(request):
     return render(request, 'zara_tshirt.html')

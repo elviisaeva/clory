@@ -221,15 +221,42 @@ body{
   font-weight: normal;
   padding-top: 2vh;
 }
-.n{
-  font-size: 15px;
-  color: #F7F7F7;
-  font-style: normal;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  font-weight: normal;
-  padding-top: 15vh;
-}
+
 .main-image6{
   padding-top: 6vh;
+}
+
+#footer{
+  background-color: #E5B9B6;
+  height: 7vh;
+}
+
+.footer{
+  padding-top: 3vh;
+  color: #F7F7F7;
+  font-size: 13pt;
+}
+
+.footer-img{
+  padding-top: 15vh;
+  height: 100%;
+  width: 100%;
+}
+#toTop {
+  width:40px;
+  height: 40px;
+  text-align:center;
+  padding:0px;
+  position:fixed;
+  bottom:70px; /* отступ кнопки от нижнего края страницы*/
+  left: 20px;
+  cursor:pointer;
+  display:none;
+  color:white;
+  font-family:verdana;
+  font-size:25px;
+  background-color: #208CB7;
+  border-radius: 50%;
+  background: url(arrow.png);
+
 }
