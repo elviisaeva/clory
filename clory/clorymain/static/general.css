@@ -104,6 +104,10 @@ a:active{
 .row1{
   margin-top: 5vh;
 }
+.row2{
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
 
 .store{
   color: #A85252;
@@ -555,7 +559,16 @@ width: 100%;
     padding-right: 0;
   background: url(right-arrow.png);
 }
-
+.btn-back-b{
+    margin-top: 60vh;
+    width: 4vw;
+    height: 4vh;
+    border-radius: 20px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  background: url(right-arrow.png);
+}
 .btn-back-dress{
     margin-left: 2vw;
     width: 4vw;
@@ -588,4 +601,36 @@ width: 100%;
     padding-left: 0;
     padding-right: 0;
   background: url(right-arrow.png);
+}
+
+.table-hover{
+  margin-top: 20vh;
+  font-size: 1.2em;
+  font-family: PT Sans;
+  margin-left: 5vw;
+}
+
+.btn-send{
+  margin-top: 2vh;
+  color: #F7F7F7;
+  font-size: 2em;
+  background: rgba(0, 144, 178, 0.38);
+  border: 2px solid #0090B2;
+  box-sizing: border-box;
+  border-radius: 60px;
+}
+
+.btn-send:hover{
+  border: 2px solid #0090B2;
+  box-sizing: border-box;
+  border-radius: 60px;
+}
+
+.btn-delete{
+  color: #F7F7F7;
+  background: #A85252;
+  border-radius: 6px;
+}
+.btn-delete:hover{
+  border: 1px solid #A85252;
 }

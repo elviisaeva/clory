@@ -26,9 +26,13 @@ def zara_tshirt(request):
 def zara_trouser(request):
     return render(request, 'zara_trouser.html')
 
-class HomeView(ListView):
-    model = Product
-    template_name = 'home.html'
+def choosen(request):
+    return render(request, 'choosen.html')
 
-    def get_queryset(self):
-        return Product.objects.all()
+
+# class HomeView(ListView):
+#     model = Product
+#     template_name = 'home.html'
+#
+#     def get_queryset(self):
+#         return Product.objects.all()
